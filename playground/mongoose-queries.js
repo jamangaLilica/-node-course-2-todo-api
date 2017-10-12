@@ -35,5 +35,6 @@ User.findById(id).then((user) => {
     if (!user) {
         return console.log('Unable to find user');
     }
+
     console.log('User by id', user);
 }, (e) => console.log(e));
